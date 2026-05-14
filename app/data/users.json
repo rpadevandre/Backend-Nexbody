@@ -1,0 +1,9 @@
+{
+  "dev@local": {
+    "email": "dev@local",
+    "hash": "dev-no-password",
+    "created_at": "2026-05-12T04:21:41.692333+00:00",
+    "lang": "es",
+    "dev": true
+  }
+}
