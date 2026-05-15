@@ -9,6 +9,8 @@ Sirve las apps en `OUTPUT/frontend` y `OUTPUT/admin-panel` con **datos reales** 
 | `GET /v1/metrics/overview` | Agregados sobre `executions`, `pipeline_runs`, `agent_memory` |
 | `GET /v1/tenants/current` | Última ejecución (`goal`, `mode`, `workspace_path`) |
 | `GET /v1/executions/recent` | Lista reciente de corridas |
+| `GET /v1/forma/*` | Perfil, plantillas de cuerpo, plan diario, check-in, calendario |
+| `GET /v1/blog` | Artículos del blog (MongoDB, con seed automático al arrancar) |
 
 Lee **`MONGO_URI` y `MONGO_DB`** del archivo **`.env` en la raíz del repositorio** (mismo que `masaas`).
 
